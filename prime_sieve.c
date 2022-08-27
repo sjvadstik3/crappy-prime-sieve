@@ -19,11 +19,6 @@
 
 #define length 1000000000
 
-//some stuff thay would have allowed to use an int array as a bit array
-/*#define SetBit(A,k)     ( A[(k)/32] |= (1 << ((k)%32)) )
-#define ClearBit(A,k)   ( A[(k)/32] &= ~(1 << ((k)%32)) )
-#define TestBit(A,k)    ( A[(k)/32] & (1 << ((k)%32)) )*/
-
 int *create_array(int *arr)
 {
     int start[6] = {0, 1, 1, 0, 1, 0};
